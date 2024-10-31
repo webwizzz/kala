@@ -2,6 +2,7 @@ import React from 'react'
 import About from './components/About'
 import Eyes from './components/Eyes'
 import Features from './components/Features'
+import Footer from './components/Footer'
 import LandingPage from './components/LandingPage'
 import Marquee from './components/Marquee'
 import Navbar from './components/Navbar'
@@ -20,6 +21,7 @@ function page() {
         <About></About>
         <Eyes></Eyes>
         <Features></Features>
+        <Footer></Footer>
       </div>
     </div>
   )
