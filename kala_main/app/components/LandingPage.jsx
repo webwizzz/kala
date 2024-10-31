@@ -1,9 +1,10 @@
 import React from 'react'
 import { FaLongArrowAltUp } from "react-icons/fa";
+import { motion } from 'framer-motion';
 
 const LandingPage = () => {
     return (
-    <div className='w-full h-screen pt-1' style={{ backgroundColor: '#f5e9da' }}>
+    <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full h-screen pt-1' style={{ backgroundColor: '#f5e9da' }}>
        <div className='textstructure mt-52 px-20'>
             <div className='line1'>
             <img
@@ -13,7 +14,13 @@ const LandingPage = () => {
                 alt="Picture"/>
             </div>
             <div className='line2 flex mt-4'>
-                <div className='w-[17vw] h-[8vw] mr-[1vw] rounded-xl bg-white'></div>
+            <motion.div
+                initial={{ width: "0" }}
+                animate={{ width: "16vw" }}
+                transition={{ ease: [0.76, 0, 0.24, 1], duration: 1.3 }}
+                className='w-[17vw] h-[8vw] mr-[1vw] rounded-xl bg-[url("/charkha.jpg")] bg-cover bg-center' >
+            </motion.div>
+
                 <img
                     src="/2.png"
                     width={300}
