@@ -1,12 +1,11 @@
-import React from 'react'
 
 const About = () => {
   return (
     <div>
         <div data-scroll data-scroll-section data-scroll-speed="-.1"  className='w-full p-20 bg-[#ac874e] rounded-tl-3xl rounded-tr-3xl'>
             <h1 className="font-['Neue Montreal'] text-[4vw] leading-[4.5vw] text-zinc-900 tracking-tighter ">
-                Ochi is a strategic partner for fast-growing tech businesses that need 
-                to raise funds, sell products, explain complex ideas, and hire great people.
+            Kala a platform to empower local artisans by helping them showcase and sell their handmade products. 
+             also provides resources and guidance to enhance their skills and adapt to new market demands.
             </h1>
             <div className="w-full flex gap-10 border-t-[1px] pt-10 mt-20 border-[#604a2a]">
               <div className='w-1/2'>
