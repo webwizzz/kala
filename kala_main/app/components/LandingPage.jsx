@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const LandingPage = () => {
     return (
-    <div data-scroll data-scroll-section data-scroll-speed="-.3" className='w-full h-screen pt-1' style={{ backgroundColor: '#f5e9da' }}>
+    <div data-scroll data-scroll-section data-scroll-speed="-.7" className='w-full h-screen pt-1' style={{ backgroundColor: '#f5e9da' }}>
        <div className='textstructure mt-52 px-20'>
             <div className='line1'>
             <img

@@ -36,7 +36,7 @@ const Eyes = () => {
             />
 
             {/* Foreground content */}
-            <div className="relative rounded-2xl z-[100] w-[70vw] h-[70vh] bg-cover bg-center bg-[url('/bg.png')]">
+            <div data-scroll data-scroll-section data-scroll-speed="-.5" className="relative rounded-2xl z-[100] w-[70vw] h-[70vh] bg-cover bg-center bg-[url('/bg.png')]">
                 <div className='absolute flex gap-10 top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%]'>
                     {/* Left Eye */}
                     <div className='flex items-center justify-center w-[15vw] h-[15vw] rounded-full bg-zinc-100'>
